@@ -126,8 +126,8 @@ static NSString *const CHANNEL_NAME = @"flutter_webview_plugin";
     self.webview.hidden = [hidden boolValue];
     self.webview.scrollView.showsHorizontalScrollIndicator = [scrollBar boolValue];
     self.webview.scrollView.showsVerticalScrollIndicator = [scrollBar boolValue];
-    [self.webView setOpaque:NO];
-    self.webView.bakgroundColor = [UIColor clearColor];
+    [self.webview setOpaque:NO];
+    self.webview.bakgroundColor = [UIColor clearColor];
 
     _enableZoom = [withZoom boolValue];
 
